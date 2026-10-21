@@ -4,11 +4,8 @@ version = "1.0.0"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi",
-    "httpx"
-]
-
-[dependency-groups]
-dev = [
+    "uvicorn",
+    "httpx",
     "workers-py",
     "workers-runtime-sdk"
 ]
