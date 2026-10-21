@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from endpoints import router
-from config import HEADERS
+from src.endpoints import router
+from src.config import HEADERS
 import httpx
 import os
 
