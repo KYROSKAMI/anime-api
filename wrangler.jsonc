@@ -1,0 +1,6 @@
+{
+  "name": "anime-api",
+  "main": "src/main.py",
+  "compatibility_date": "2026-10-21",
+  "compatibility_flags": ["python_workers"]
+}
