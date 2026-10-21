@@ -543,3 +543,5 @@ async def home():
     </script>
 </body>
 </html>"""
+from workers import asgi
+Default = asgi.entrypoint(app)
